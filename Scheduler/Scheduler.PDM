@@ -1,0 +1,139 @@
+[Root]
+Most Recent Package=HxScheduler
+
+
+[Package|HxScheduler|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\HxScheduler
+
+[Package|HxScheduler|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HxScheduler|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HxScheduler|Files Found]
+
+[Package|HxScheduler|Files Released]
+
+[Package|HxScheduler|Missing Dependency Information]
+C:\WINDOWS\system32\nigol.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Microsoft Visual Studio .NET\Common7\Controls\msbind.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|HxScheduler|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\msbind.dll=
+
+[Package|HxScheduler|Files Added]
+d:\isapmcnp\scheduler\backups\readme.txt=
+d:\isapmcnp\scheduler\default\default.mdb=
+D:\ISAPMCNP\Scheduler\NIGOLFILE.FJV=
+
+[Package|HxScheduler|Files Removed]
+
+[Package|HxScheduler|Files In Project]
+D:\ISAPMCNP\Scheduler\Scheduler.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\nigol.dll=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\ISAPMCNP\Scheduler\Backups\ReadMe.txt=Yes
+D:\ISAPMCNP\Scheduler\Default\Default.mdb=Yes
+C:\WINDOWS\system32\msbind.dll=Yes
+D:\ISAPMCNP\Scheduler\NIGOLFILE.FJV=Yes
+
+[Package|HxScheduler|Configure Registry Files]
+Applicable=No
+
+[Package|HxScheduler|Configure Remote Servers]
+Applicable=No
+
+[Package|HxScheduler|Install Locations]
+D:\ISAPMCNP\Scheduler\Scheduler.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio .NET\Common7\Controls\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\nigol.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)\Backups
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\ISAPMCNP\Scheduler\Backups\ReadMe.txt=$(AppPath)
+D:\ISAPMCNP\Scheduler\Default\Default.mdb=$(AppPath)\Default
+C:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+D:\ISAPMCNP\Scheduler\NIGOLFILE.FJV=$(AppPath)
+
+[Package|HxScheduler|Configure Shared Files]
+Applicable=Yes
+D:\ISAPMCNP\Scheduler\Scheduler.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\ISAPMCNP\Scheduler\Backups\ReadMe.txt=No
+D:\ISAPMCNP\Scheduler\Default\Default.mdb=No
+D:\ISAPMCNP\Scheduler\NIGOLFILE.FJV=No
+
+[Package|HxScheduler|Distribution]
+Type=single
+Size=
+Title=Scheduler
+
+[Package|HxScheduler|Package]
+PackageFolder=D:\HxScheduler
+ProjectFolder=D:\ISAPMCNP\Scheduler
+ServerSideCab=
+File1=D:\HxScheduler\setup.exe
+File2=D:\HxScheduler\Setup.Lst
+File3=D:\HxScheduler\Scheduler.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|HxScheduler|IconGroups]
+Group0=Scheduler
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HxScheduler|Scheduler]
+Icon1=Scheduler.exe
+Title1=Scheduler
+StartIn1=$(AppPath)
+Key1=Icon1

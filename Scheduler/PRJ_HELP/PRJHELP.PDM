@@ -1,0 +1,114 @@
+[Root]
+Most Recent Package=HX Scheduler Help Package
+
+
+[Package|HX Scheduler Help Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\HxScheduler\Help
+
+[Package|HX Scheduler Help Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HX Scheduler Help Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HX Scheduler Help Package|Files Found]
+
+[Package|HX Scheduler Help Package|Files Released]
+
+[Package|HX Scheduler Help Package|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\dao360.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|HX Scheduler Help Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\msbind.dll=
+
+[Package|HX Scheduler Help Package|Files Added]
+d:\isapmcnp\scheduler\prj_help\help.mdb=
+
+[Package|HX Scheduler Help Package|Files Removed]
+
+[Package|HX Scheduler Help Package|Files In Project]
+D:\ISAPMCNP\Scheduler\PRJ_HELP\PRJHELP.EXE=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\ISAPMCNP\Scheduler\PRJ_HELP\HELP.MDB=Yes
+C:\WINDOWS\system32\dao360.dll=Yes
+C:\WINDOWS\system32\msbind.dll=Yes
+
+[Package|HX Scheduler Help Package|Configure Registry Files]
+Applicable=No
+
+[Package|HX Scheduler Help Package|Configure Remote Servers]
+Applicable=No
+
+[Package|HX Scheduler Help Package|Install Locations]
+D:\ISAPMCNP\Scheduler\PRJ_HELP\PRJHELP.EXE=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio .NET\Common7\Controls\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\ISAPMCNP\Scheduler\PRJ_HELP\HELP.MDB=$(AppPath)
+C:\WINDOWS\system32\dao360.dll=$(WinSysPath)
+C:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+
+[Package|HX Scheduler Help Package|Configure Shared Files]
+Applicable=Yes
+D:\ISAPMCNP\Scheduler\PRJ_HELP\PRJHELP.EXE=No
+D:\ISAPMCNP\Scheduler\PRJ_HELP\HELP.MDB=No
+
+[Package|HX Scheduler Help Package|Distribution]
+Type=single
+Size=
+Title=PRJHELP
+
+[Package|HX Scheduler Help Package|Package]
+PackageFolder=D:\HxScheduler\Help
+ProjectFolder=D:\ISAPMCNP\Scheduler\PRJ_HELP
+ServerSideCab=
+File1=D:\HxScheduler\Help\setup.exe
+File2=D:\HxScheduler\Help\Setup.Lst
+File3=D:\HxScheduler\Help\PRJHELP.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|HX Scheduler Help Package|IconGroups]
+Group0=Scheduler
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|HX Scheduler Help Package|Scheduler]
+Icon1=PRJHELP.EXE
+Title1=HELP FILE
+StartIn1=$(AppPath)
+Key1=Icon1

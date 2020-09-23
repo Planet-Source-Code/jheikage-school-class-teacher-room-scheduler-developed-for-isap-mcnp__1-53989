@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\Scheduler.vbp
+Project=..\loginPatch\NIGOL.VBP

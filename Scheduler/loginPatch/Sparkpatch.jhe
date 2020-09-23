@@ -1,0 +1,45 @@
+Attribute VB_Name = "sparkpatch"
+'Public Declarations
+Public System_Login As Boolean
+Public Help_Show As Boolean
+Public Count_Try As Integer
+Public Login_Failed As Boolean
+Global Exited_System As Boolean
+Public KeyNames(2) As String
+Public KeyPassword(2) As String
+Public Indexman As Integer
+Public XS As String
+Public XY As String
+
+Public Sub Get_All_Keys()
+    Dim i As Integer
+    For i = 0 To 2
+        KeyNames(i) = GetSetting("NIGOL", "H_Key_Login", "KEYNAMES" & i, "Administrator" & i)
+        KeyPassword(i) = GetSetting("Nigol", "H_Key_Login", "KEYPASS" & i, "crack" & i)
+    Next
+    'Populate Keys
+End Sub
+
+Public Function Pop_Hrd(ByVal List As ListBox)
+    List.Clear
+    Dim i As Integer
+    For i = 0 To 2
+        List.AddItem KeyNames(i)
+    Next
+End Function
+Public Function Unload_System(ByVal Form As Form) As Boolean
+    Unload Form
+End Function
+
+Public Function Help(Optional FrmHelp As Form, Optional HTMLHelp As String)
+    If FrmHelp Is Nothing Then
+        If HTMLHelp = "" Then
+            MsgBox "No Help File to Display.", vbCritical, "ERROR"
+            Exit Function
+        End If
+        Shell HTMLHelp, vbMaximizedFocus
+    Else
+        FrmHelp.Show 1
+    End If
+End Function
+

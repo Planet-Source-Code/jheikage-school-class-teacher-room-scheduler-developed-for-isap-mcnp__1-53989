@@ -1,0 +1,230 @@
+[Root]
+Most Recent Package=Report Generator Patch
+
+
+[Package|Report Generator Patch|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\HxScheduler\ReportGen
+
+[Package|Report Generator Patch|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Report Generator Patch|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Report Generator Patch|Files Found]
+
+[Package|Report Generator Patch|Files Released]
+u2dapp.dll=
+u2dpost.dll=
+u2fxml.dll=
+u2fsepv.dll=
+u2fcr.dll=
+Unicows.dll=
+default.mdb=
+
+[Package|Report Generator Patch|Missing Dependency Information]
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll=
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\craxdrt9.dll=
+C:\WINDOWS\system32\crviewer9.dll=
+
+[Package|Report Generator Patch|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Report Generator Patch|Files Added]
+default.mdb=
+D:\ISAPMCNP\Scheduler\RepGen\Reports\Default.mdb=
+
+[Package|Report Generator Patch|Files Removed]
+
+[Package|Report Generator Patch|Files In Project]
+D:\ISAPMCNP\Scheduler\RepGen\RepGen.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscrc.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscdlg.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CRAnalyzer.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\p2ixbse.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dictionary.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\filedialog.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sacommoncontrols.dll=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\crviewer9.dll=Yes
+C:\WINDOWS\system32\craxdrt9.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_ado.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dao.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_odbc.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\querybuilder.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\exlate32.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_pdf.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_rtf.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_wordw.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_xls.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ftext.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ddisk.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CR9Deploy.reg=Yes
+D:\ISAPMCNP\Scheduler\RepGen\Reports\Default.mdb=Yes
+
+[Package|Report Generator Patch|Configure Registry Files]
+Applicable=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CR9Deploy.reg=Register
+\Program files\common files\Crystal Decisions\2.0\bin\CR9DEPLOY.REG=Register
+
+[Package|Report Generator Patch|Configure Remote Servers]
+Applicable=No
+
+[Package|Report Generator Patch|Install Locations]
+D:\ISAPMCNP\Scheduler\RepGen\RepGen.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Crystal Decisions\2.0\crystalreportviewers\ActiveXViewer\crviewer9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Crystal Decisions\Report Designer Component\craxdrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscrc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscdlg.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CRAnalyzer.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\p2ixbse.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dictionary.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\filedialog.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sacommoncontrols.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\ISAPMCNP\Scheduler\Reports\Default.mdb=$(AppPath)\Reports
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll=$(WinSysPath)
+C:\WINDOWS\system32\crviewer9.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxdrt9.dll=$(WinSysPath)
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+D:\ISAPMCNP\Scheduler\RepGen\Reports\Default.mdb=$(AppPath)\reports
+
+[Package|Report Generator Patch|Configure Shared Files]
+Applicable=Yes
+D:\ISAPMCNP\Scheduler\RepGen\RepGen.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\ISAPMCNP\Scheduler\Reports\Default.mdb=No
+D:\ISAPMCNP\Scheduler\RepGen\Reports\Default.mdb=No
+
+[Package|Report Generator Patch|Distribution]
+Type=single
+Size=
+Title=Report Generator Package
+
+[Package|Report Generator Patch|IconGroups]
+Group0=Scheduler
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Report Generator Patch|Scheduler]
+Icon1=RepGen.exe
+Title1=Report Generator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Report Generator Patch|Package]
+PackageFolder=D:\HxScheduler\ReportGen
+ProjectFolder=D:\ISAPMCNP\Scheduler\RepGen
+ServerSideCab=
+File1=D:\HxScheduler\ReportGen\setup.exe
+File2=D:\HxScheduler\ReportGen\Setup.Lst
+File3=D:\HxScheduler\ReportGen\RepGen.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
